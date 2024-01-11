@@ -1,0 +1,242 @@
+.flexbox-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.flexbox-container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #032d60;
+}
+.flexbox-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexbox-item-01 {
+    width: 100px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flexbox-item-02 {
+    width: 350px;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox-item-03 {
+    width: 600px;
+    margin: 10px;
+    min-height: 400px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-item-2{
+    min-height: 24px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-family: "ITC Avant Garde";
+}
+#body-text-1{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.32px;
+    color: #032d60;
+    font-weight: 800;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+#body-text-2{
+    font-family: "Salesforce Sans";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.024px;
+    padding-top: 16px;
+}
+#h2center {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -.005em;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-family: "Salesforce Sans"; 
+}
+
+.h2link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.h2link:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+.h1link{
+    color: #032d60;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+}
+.h1link:hover{
+    color: #0176d3;
+}
+#discover {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+}
+#btn-1 {
+    text-decoration: none;
+    background-color: #0176d3;
+    color: white;
+    border: 2px solid #0176d3;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+    border-radius: 4px;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.002em;
+    font-weight: 700;
+
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    padding-block-start: 12px;
+    padding-inline-end: 32px;
+    padding-block-end: 12px;
+    padding-inline-start: 32px;
+}
+#btn-1:hover {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #032d60;
+    background-color: #032d60;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.002em;
+    border-radius: 4px;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    padding-block-start: 12px;
+    padding-inline-end: 32px;
+    padding-block-end: 12px;
+    padding-inline-start: 32px;
+}
+#btn-2 {
+    text-decoration: none;
+    color: #0176d3;
+    border: 2px solid #0176d3;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.002em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    padding-block-start: 12px;
+    padding-inline-end: 32px;
+    padding-block-end: 12px;
+    padding-inline-start: 32px;
+}
+#btn-2:hover {
+    text-decoration: none;
+    color: #032d60;
+    border: 2px solid #032d60;
+    background-color: #d8e6fe;
+    font-family: "Salesforce Sans";
+    font-weight: bold;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.002em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    padding-block-start: 12px;
+    padding-inline-end: 32px;
+    padding-block-end: 12px;
+    padding-inline-start: 32px;
+}
+.body-btn{
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+} 
+.h1-buttons{
+    border: none;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    max-width: 18px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #032d60;
+    font-family: "Salesforce Sans";
+    vertical-align: center;
+}
+.try-btn{
+    background-color: #04AA6D;
+    text-decoration: none;
+    color: white;
+    font-family: "Salesforce Sans";
+    font-weight: 700px;
+    padding: 8px;
+    border-radius: 2px;
+    vertical-align: center;
+}
+.try-btn:hover{
+    background-color: #2e844a;
+    text-decoration: none;
+    color: white;
+    font-family: "Salesforce Sans";
+    font-weight: 700px;
+    padding: 8px;
+    border-radius: 2px;
+    vertical-align: center;
+}
